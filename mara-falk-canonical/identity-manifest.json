@@ -1,0 +1,213 @@
+{
+  "schema_version": 1,
+  "manifest_kind": "canonical_ai_identity",
+  "identity_id": "mara-falk-ai",
+  "identity_version": "1.0.0-draft",
+  "status": "draft",
+  "display_name": "Mara Falk AI",
+  "identity_type": "independent_100_percent_ai_person",
+  "created_on": "2026-11-17",
+  "canonical_home": ".",
+  "public_identity": {
+    "required_disclosure": "Independent 100% AI creator and digital performer",
+    "human_identity_claims_allowed": false,
+    "adult_presentation_required": true,
+    "apparent_age_range": null,
+    "apparent_age_range_status": "tbd_before_approval"
+  },
+  "ownership_and_independence": {
+    "mara_rights_holder_id": null,
+    "mara_rights_holder_status": "tbd_before_approval",
+    "client_brand_dependency_allowed": false,
+    "client_may_own_or_modify_core": false,
+    "client_may_train_replacement_model": false,
+    "client_access_policy": "scoped_revocable_contract_only"
+  },
+  "canonical_traits": {
+    "eyes": "blue-grey",
+    "skin": "warm fair skin with realistic texture",
+    "face_shape": "softly heart-shaped oval",
+    "eyebrows": "defined and natural",
+    "nose": "straight and refined",
+    "lips": "balanced",
+    "jawline": "soft",
+    "hair_colour": "blonde with darker roots",
+    "canonical_hair_style": "centre-parted low bun with two loose face-framing strands",
+    "body": "realistic balanced adult anatomy with natural non-exaggerated proportions",
+    "body_measurements_status": "not_yet_defined",
+    "baseline_expression": "calm approachable confident with a subtle closed-mouth smile",
+    "baseline_makeup": "natural and understated",
+    "canonical_wardrobe": {
+      "top": "opaque neutral-grey crew-neck T-shirt with a high modest neckline",
+      "bottom": "tailored dark-charcoal straight-leg trousers",
+      "shoes": "simple neutral flat shoes",
+      "branding": "none"
+    }
+  },
+  "controlled_variation_policy": {
+    "face_identity": "locked",
+    "apparent_age": "locked_after_approval",
+    "eye_colour": "locked",
+    "skin_tone": "locked",
+    "body_proportions": "locked_after_body_spec_is_approved",
+    "hair_colour": "locked",
+    "hair_style": "canonical_style_only_until_variation_set_is_approved",
+    "wardrobe": "variable_only_from_approved_wardrobe_library",
+    "expression": "variable_only_from_approved_expression_set",
+    "pose": "variable_if_anatomically_valid_and_non-sexualized",
+    "environment": "variable_if_rights-cleared_and_client-neutral",
+    "client_brand_overlays": "temporary_role_assets_only"
+  },
+  "prohibited_drift": [
+    "different person",
+    "different apparent age",
+    "altered eye colour",
+    "altered face structure",
+    "unapproved hairstyle or hair colour",
+    "exaggerated or sexualized anatomy",
+    "client branding inside Mara Core",
+    "unlicensed logos, wardrobe, props or environments",
+    "unapproved resemblance to a real person"
+  ],
+  "canonical_assets": [
+    {
+      "asset_id": "mara-front-full-body-v1",
+      "role": "front_full_body_candidate",
+      "file": "mara-falk-front-1536x2048.png",
+      "media_type": "image/png",
+      "width": 1536,
+      "height": 2048,
+      "colour_profile": "sRGB IEC61966-2.1",
+      "sha256": "0d82e9e3a9e9984c82e3419a52e19849ace67b4688db35542d2ced0f8746cec3",
+      "approval_status": "candidate"
+    },
+    {
+      "asset_id": "mara-three-quarter-full-body-v1",
+      "role": "three_quarter_full_body_candidate",
+      "file": "mara-falk-three-quarter-1536x2048.png",
+      "media_type": "image/png",
+      "width": 1536,
+      "height": 2048,
+      "colour_profile": "sRGB IEC61966-2.1",
+      "sha256": "087ff6fa7840a9683e48ac12b18948b03e2294f36a3a103e5a6904826e74977c",
+      "approval_status": "candidate"
+    },
+    {
+      "asset_id": "mara-left-profile-full-body-v1",
+      "role": "left_profile_full_body_candidate",
+      "file": "mara-falk-left-profile-1536x2048.png",
+      "media_type": "image/png",
+      "width": 1536,
+      "height": 2048,
+      "colour_profile": "sRGB IEC61966-2.1",
+      "sha256": "43022ce4a019663396823c57309b332bcfead4ed7d52df69cfc2a5c1a6d95d37",
+      "approval_status": "candidate"
+    }
+  ],
+  "canonical_authorities": {
+    "primary_face_asset_id": null,
+    "primary_body_asset_id": null,
+    "status": "must_be_selected_by_human_approver",
+    "canonical_headshot_asset_id": null
+  },
+  "generation_recipe": {
+    "generation_route": "built_in_image_gen",
+    "exact_model_and_version": null,
+    "exact_model_and_version_status": "missing",
+    "prompt_file": "generation-prompts.md",
+    "prompt_file_sha256": "6cc406559fd109840fe1b19f417b0ab5435c7685497e5c2fcc0a721e84b8019e",
+    "prompt_consistency_key": "731194 — MARA_FALK_CANONICAL_A_20261117",
+    "deterministic_seed": null,
+    "reference_order_documented": true,
+    "generation_receipts_status": "missing",
+    "reproducibility_status": "incomplete"
+  },
+  "source_references": {
+    "source_manifest_file": "provenance/source-provenance.json",
+    "source_manifest_status": "missing",
+    "declared_sources": [
+      {
+        "file": "Studio Portrait of a Woman in Beige Dress.png",
+        "role": "secondary_identity_and_full_body_reference",
+        "included_in_package": false
+      },
+      {
+        "file": "SportSparo Football Studio Collage Fitted blazer left open over a very tight low-cut top + pencil skirt.png",
+        "role": "historical_primary_facial_reference",
+        "included_in_package": false,
+        "deprecation_target": "replace_with_neutral_mara_core_face_authority"
+      },
+      {
+        "file": "sportsparo-presenter-outdoor-960x1664.png",
+        "role": "secondary_face_skin_eyes_hair_and_upper_body_reference",
+        "included_in_package": false,
+        "deprecation_target": "replace_with_neutral_mara_core_reference"
+      }
+    ]
+  },
+  "rights_and_clearance": {
+    "rights_record_file": "rights/rights-and-clearance.md",
+    "rights_record_status": "missing",
+    "source_asset_rights": "pending_documentation",
+    "output_commercial_rights": "pending_documentation",
+    "likeness_similarity_clearance": "pending",
+    "confirmed_not_a_real_person_clone": null,
+    "model_training_permission": "not_granted_by_default",
+    "external_generator_reference_use": "not_approved_until_rights_record_exists"
+  },
+  "quality_assurance": {
+    "validation_plan_file": "qa/visual-validation-plan.md",
+    "validation_results_file": "qa/validation-results.json",
+    "status": "not_started",
+    "minimum_varied_test_images": 20,
+    "required_missing_views": [
+      "neutral_close_up_headshot",
+      "right_three_quarter",
+      "right_profile",
+      "rear_three_quarter",
+      "rear_full_body",
+      "approved_expression_set",
+      "hair_reference_set"
+    ],
+    "identity_drift_threshold": null,
+    "identity_drift_threshold_status": "tbd_before_autonomy"
+  },
+  "publication_policy": {
+    "autonomous_publication_allowed": false,
+    "supervised_test_generation_allowed": true,
+    "public_posting_allowed": false,
+    "ai_disclosure_required": true,
+    "human_approval_required": true,
+    "reason": [
+      "canonical face and body authorities are not selected",
+      "rights and similarity clearances are incomplete",
+      "source provenance is incomplete",
+      "visual validation set has not passed",
+      "social image template and platform export presets are missing"
+    ]
+  },
+  "approval": {
+    "status": "draft",
+    "approved": false,
+    "approver_id": null,
+    "approved_at": null,
+    "approval_receipt": null
+  },
+  "supersession": {
+    "supersedes_identity_version": null,
+    "superseded_by_identity_version": null,
+    "changes_require_new_version": true,
+    "previous_versions_must_remain_auditable": true
+  },
+  "required_before_identity_v1_approval": [
+    "identify the Mara Rights Holder",
+    "approve an explicit adult apparent-age range",
+    "select primary face and body authorities",
+    "create a neutral canonical close-up headshot",
+    "complete source provenance and rights records",
+    "record the exact generator model/version and generation receipts",
+    "pass the visual validation plan with at least 20 varied images",
+    "define an identity-drift rejection threshold",
+    "sign a human approval receipt"
+  ]
+}
